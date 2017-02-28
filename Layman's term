@@ -1,0 +1,22 @@
+The 3 core components of the Apache Software Foundation’s Hadoop framework are:
+
+-MapReduce :
+Its a technique/programming model followed by hadoop for distributed storage system.
+It is based on Java programming, it is subdivided into map and reduce.
+It helps to scale data across multiple nodes.
+This allows utilization of the scalable power of the CPU.
+The mapper reduces large chunks of data into small chunks by using key and maps.
+The reduce stage uses shuffle and sort to seggregate data and perform operations on it.
+
+-HDFS :
+
+Java-based distributed file system in hadoop that can store all kinds of data without prior organization.This is main reason why
+hadoop can handle variety of data.
+Abbreviated as HDFS, it is primarily a file system similar to many of the already existing ones.It provides replication of
+data in blocks. Blocks are created as soon as the file is stored in the HDFS.
+
+-YARN:
+It is an inclusion in hadoop 2.X, it is responsible for cluster management.
+A resource management framework for scheduling and handling resource requests from distributed applications.
+The inclusion of YARN means you can run multiple applications in Hadoop (so you’re no longer limited to MapReduce), 
+which all share common cluster management.
