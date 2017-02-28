@@ -9,4 +9,6 @@ MapReduce
 Map/Reduce algorithm consists of map and reduce that is used to process humungus amounts of data to generate patterns.
 It too works on master slave architecture.The master node is called Resource Manager and the slave nodes are called the manager nodes
 that are commodity machines used to process data.
-
+It is based on Java programming, it is subdivided into map and reduce.
+It helps to scale data across multiple nodes.
+This allows utilization of the scalable power of the CPU.
